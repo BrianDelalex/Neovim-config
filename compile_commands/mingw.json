@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/bdelalex/Documents/test_nvim_completion/",
+    "command": "x86_64-w64-mingw32-g++ -mconsole -I/usr/x86_64-w64-mingw32/include -D_DEBUG=1 **/*.cpp -o main.exe -static -static-libgcc -static-libstdc++",
+    "file": "**/*.cpp"
+  }
+]
