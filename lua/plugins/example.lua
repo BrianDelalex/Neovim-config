@@ -51,6 +51,9 @@ return {
   -- change some telescope options and a keymap to browse plugin files
   {
     "nvim-telescope/telescope.nvim",
+    config = function()
+        require("plugins.configs.telescope")
+    end,
     keys = {
       -- add a keymap to browse plugin files
       -- stylua: ignore
@@ -67,6 +70,9 @@ return {
         layout_config = { prompt_position = "top" },
         sorting_strategy = "ascending",
         winblend = 0,
+        file_ignore_patterns = {
+            "x64"
+          }
       },
     },
   },
